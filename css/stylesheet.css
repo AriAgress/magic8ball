@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Oswald:wght@500&display=swap');
 
 body {
-  background-color: lightgrey;
+  background-image: url('../magic8ball_img/space_bg.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
@@ -19,7 +23,8 @@ body {
 }
 
 .text {
-font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(6, 155, 155);
   font-size: 5rem;
   height:100%;
   width:100%;
@@ -30,15 +35,39 @@ font-family: 'Oswald', sans-serif;
 }
 
 .textbox {
-	background-color: #FA9595;
+	background-color: rgb(253, 190, 200);
 	text-align: center;
-	color: white;
-	font-weight: normal;
   font-size: 3rem;
-  border-radius: 20px;
-  width: 70rem;
+  border-radius: 25px;
   border: none;
   outline: none;
+  height:100%;
+  width:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  padding:1rem;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(223, 154, 25);
+  font-weight:bold;
+  font-size: 4rem;
+  outline:none;
+  border-radius: 25px;
+  padding:2rem;
+}
+
+button:hover {
+  background-color: rgb(5, 129, 129);
+  text-decoration: none;
+}
+
+.button_center {
   height:100%;
   width:100%;
   display: flex;
@@ -47,21 +76,11 @@ font-family: 'Oswald', sans-serif;
   justify-content: center;
 }
 
-button {
-background: none;
-border: none;
-font-family: 'Oswald', sans-serif;
-font-size: 4rem;
-outline:none;
-height:100%;
-width:100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-
-button:hover {
-  background-color: pink;
-  text-decoration: none;
+.contact_wrapper {
+  width: 90%;
+  height: 90%;
+  padding: 24px;
+  margin: 34px auto;
+  border: 3px solid #fdf59c;
+  border-radius: 25px;
 }
