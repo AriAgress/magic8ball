@@ -78,6 +78,8 @@ function displayRandomImages() {
 
   var newImage = getRandomNum(0, newArray.length - 1);
 
+newImage.style.marginLeft = "25%"
+
   var images = document.getElementsByTagName('img');
   var l = images.length;
   for (var p = 0; p < l; p++) {

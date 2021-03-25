@@ -48,6 +48,7 @@ body {
   justify-content: center;
   margin-left: 25%;
   padding:1rem;
+  margin-bottom: 1.5rem;
 }
 
 button {
@@ -74,13 +75,4 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.contact_wrapper {
-  width: 90%;
-  height: 90%;
-  padding: 24px;
-  margin: 34px auto;
-  border: 3px solid #fdf59c;
-  border-radius: 25px;
 }
