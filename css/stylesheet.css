@@ -6,6 +6,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .title {
@@ -20,6 +21,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 .text {
@@ -75,4 +77,40 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom:2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {font-size: 2rem;}
+  .text {font-size: 1.7rem;}
+  .textbox {font-size: 1rem;}
+  button {font-size: 1rem;}
+} 
+
+@media only screen and (min-width: 600px) {
+  .title {font-size: 4rem;}
+  .text {font-size: 2rem;}
+  .textbox {font-size: 2rem;}
+  button {font-size: 2rem;}
+} 
+
+@media only screen and (min-width: 768px) {
+  .title {font-size: 6rem;}
+  .text {font-size: 3rem;}
+  .textbox {font-size: 2rem;}
+  button {font-size: 2rem;}
+} 
+
+@media only screen and (min-width: 992px) {
+  .title {font-size: 7rem;}
+  .text {font-size: 4rem;}
+  .textbox {font-size: 2rem;}
+  button {font-size: 3rem;}
+}
+
+@media only screen and (min-width: 1200px) {
+  .title {font-size: 9rem;}
+  .text {font-size: 5rem;}
+  .textbox {font-size: 3rem;}
+  button {font-size: 4rem;}
 }

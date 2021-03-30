@@ -3,62 +3,42 @@ function displayRandomImages() {
     {
       src: 'magic8ball_img/magic8ball_1.png',
 
-      width: '700',
-      height: '700',
     },
     {
       src: 'magic8ball_img/magic8ball_2.png',
 
-      width: '700',
-      height: '700',
     },
     {
       src: 'magic8ball_img/magic8ball_3.png',
 
-      width: '700',
-      height: '700',
     },
     {
       src: 'magic8ball_img/magic8ball_4.png',
 
-      width: '700',
-      height: '700',
     },
     {
       src: 'magic8ball_img/magic8ball_5.png',
 
-      width: '700',
-      height: '700',
     },
     {
       src: 'magic8ball_img/magic8ball_6.png',
 
-      width: '700',
-      height: '700',
     },
     {
       src: 'magic8ball_img/magic8ball_7.png',
 
-      width: '700',
-      height: '700',
     },
     {
       src: 'magic8ball_img/magic8ball_8.png',
 
-      width: '700',
-      height: '700',
     },
     {
       src: 'magic8ball_img/magic8ball_9.png',
 
-      width: '700',
-      height: '700',
     },
     {
       src: 'magic8ball_img/magic8ball_10.png',
 
-      width: '700',
-      height: '700',
     },
   ];
 
@@ -67,8 +47,7 @@ function displayRandomImages() {
   for (var i = 0; i < arrayLength; i++) {
     newArray[i] = new Image();
     newArray[i].src = imageArray[i].src;
-    newArray[i].width = imageArray[i].width;
-    newArray[i].height = imageArray[i].height;
+
   }
 
   function getRandomNum(min, max) {
@@ -78,7 +57,10 @@ function displayRandomImages() {
 
   var newImage = getRandomNum(0, newArray.length - 1);
 
-newImage.style.marginLeft = "25%"
+newImage.style.height = '70%';
+newImage.style.width = '70%';
+newImage.style.display = 'block';
+newImage.style.margin = 'auto';
 
   var images = document.getElementsByTagName('img');
   var l = images.length;
