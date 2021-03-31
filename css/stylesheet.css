@@ -68,6 +68,7 @@ button {
 button:hover {
   background-color: rgb(5, 129, 129);
   text-decoration: none;
+  outline: none;
 }
 
 .button_center {
@@ -88,28 +89,28 @@ button:hover {
 } 
 
 @media only screen and (min-width: 600px) {
-  .title {font-size: 4rem;}
+  .title {font-size: 3rem;}
   .text {font-size: 2rem;}
   .textbox {font-size: 2rem;}
   button {font-size: 2rem;}
 } 
 
 @media only screen and (min-width: 768px) {
-  .title {font-size: 6rem;}
+  .title {font-size: 4rem;}
   .text {font-size: 3rem;}
   .textbox {font-size: 2rem;}
   button {font-size: 2rem;}
 } 
 
 @media only screen and (min-width: 992px) {
-  .title {font-size: 7rem;}
+  .title {font-size: 5rem;}
   .text {font-size: 4rem;}
   .textbox {font-size: 2rem;}
   button {font-size: 3rem;}
 }
 
 @media only screen and (min-width: 1200px) {
-  .title {font-size: 9rem;}
+  .title {font-size: 7rem;}
   .text {font-size: 5rem;}
   .textbox {font-size: 3rem;}
   button {font-size: 4rem;}

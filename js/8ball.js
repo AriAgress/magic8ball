@@ -47,7 +47,6 @@ function displayRandomImages() {
   for (var i = 0; i < arrayLength; i++) {
     newArray[i] = new Image();
     newArray[i].src = imageArray[i].src;
-
   }
 
   function getRandomNum(min, max) {
@@ -57,10 +56,10 @@ function displayRandomImages() {
 
   var newImage = getRandomNum(0, newArray.length - 1);
 
-newImage.style.height = '70%';
-newImage.style.width = '70%';
-newImage.style.display = 'block';
-newImage.style.margin = 'auto';
+  newImage.style.height = '60%';
+  newImage.style.width = '60%';
+  newImage.style.display = 'block';
+  newImage.style.margin = 'auto';
 
   var images = document.getElementsByTagName('img');
   var l = images.length;
