@@ -7,6 +7,7 @@ Magic 8 Ball - Java Script Final Project
 This project is my final project for JavaScript for Beginners.
 
 _install bootstrap and VS code_
+*NEED GOOGLE CHROME - for some reason, safari doesn't support 'webkits' so my banner will not show in safari*
 
 ## Why the project is useful
 
