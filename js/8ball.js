@@ -64,3 +64,6 @@ function clearText() {
   document.getElementById('textbox').value = '';
 }
 
+function playAudio(url) {
+  new Audio(url).play();
+}
