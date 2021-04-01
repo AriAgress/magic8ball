@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
       rel="stylesheet"
@@ -12,24 +12,29 @@
       crossorigin="anonymous"
     />
 
-<link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css" />
 
-<script src="js/8ball.js"></script>
+    <script src="js/8ball.js"></script>
 
-<title>Goodvibe 8 Ball</title>
-</head>
-<body>
+    <title>Goodvibe 8 Ball</title>
+  </head>
+  <body>
+    <header>
+      <div id="title">GOODVIBE 8 BALL</div>
+    </header>
 
-<header>
-<div class="title">GOODVIBE 8 BALL</div>
-</header>
+    <p id="text">WHAT WOULD YOU LIKE TO KNOW?</p>
+    <input
+      type="text"
+      id="textbox"
+      name="textbox"
+      placeholder="Ask Me Anything!"
+      onclick="clearText()"
+    />
 
-<p class="text">WHAT WOULD YOU LIKE TO KNOW?</p>
-<input type="text" class="textbox" name="textbox" placeholder="Ask Me Anything!">
-
-<div class="button_center">
-<button onclick="displayRandomImages();">ASK AWAY</button>
-</div>
+    <div id="button_center">
+      <button onclick="displayRandomImages();">ASK AWAY</button>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -42,6 +47,5 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
-
-</body>
+  </body>
 </html>
